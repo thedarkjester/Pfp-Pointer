@@ -26,6 +26,11 @@ The contract exposes a call to get the metadata uri, which depending on the stan
 
 **Note** The ownership is checked at each query.
 
+### Roadmap
+- Javascript framework components/plugins/widgets
+- MetaMask snaps
+- Other standards
+- non-standard NFTs
 
 ## FAQ
 - Is it centralised? who owns/manages the main contract?
