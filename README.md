@@ -27,12 +27,52 @@ The contract exposes a call to get the metadata uri, which depending on the stan
 **Note** The ownership is checked at each query.
 
 ### Roadmap
-- Javascript framework components/plugins/widgets
-- MetaMask snaps
-- Other standards
-- non-standard NFTs
+In the interest of interoperability, adoption and user experience, the intended roadmap is to build/work on the following:
+
+#### Ownership burning, multisigs and ENS names
+1. Once we believe the main contract is in use and stable (it has been tested), we will burn the ownership of the main contract to remove single point of failure/manipulation concerns.
+
+2. There will be a time where we will add an additional community owners of the provider as separate contracts (or just owners) to remove single failure points. This will be done in a way that majority can be reached without The Dark Jester
+
+3. The ENS registrations are currently set for 3 years, but hopefully way before then, funds will be secured to extend it dramatically, at which point ownership and control will be burnt (or possibly controlled by the community)
+
+
+#### Javascript framework components/plugins/widgets 
+Theae are plugins to manage pfp registration as well as retrieving the user's pfp metadata uri, as well as a display image component. 
+
+The initial frameworks to be targeted are;
+- React
+- Vue
+- Next
+- Angular
+
+And other framework can be suggested (or built and submitted via a pull request from a developer fork)
+
+#### MetaMask snaps
+Similar functionalityn to the snap will be built, with the hope that a user's NFT collection in MetaMask is exposed.
+
+If other wallets support similar functionality, community development is accepted via pull requests.
+
+#### Future standards
+If new standards are created for NFTs that support metadata uris and ownership, those can be added to the provider. **Note**: as part of the provider ownership, a multisig is used to approve new queriers (if there is more than one owner)
+
+#### Non-standard NFTs
+Similar to future standards, additional queriers can be added for contracts that have metadata uris and ownership, but do not conform to current defined standards. These can be suggested via:
+
+- an issue on this repository requesting addition of the contract at a deployed address
+- Uri to the deployed address on Etherscan with the verified contract
+- Uri to an expected NFT that has verified contract information on Etherscan as a sample for verification.
+- A pull request to this repository with tests, a sample test NFT showing supported functionality
 
 ## FAQ
+- Why did you build or are building this?
+- - To contribute to the community
+- - Provide an easy way for *anyone* to register their NFT
+- - Provide components for dapps to personalise NFTs
+- - Improve skills
+- Are you expecting money for this?
+- - No, this is a gift to the community. We are open to tips if people feel inclined.
+- - The only money we may hope for in the future is to extend the ENS registrations ridiculously far into the future, and then set ownership to the burn address to remove single user control (or set shared control).
 - Is it centralised? who owns/manages the main contract?
 - - The Dark Jester currently manages the main contract, however, a burn ownership function will be called once the contract is stable. After the burn, the provider or owner cannot be changed
 - Who owns provider contract?
