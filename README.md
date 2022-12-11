@@ -13,7 +13,7 @@ The main contract that people interact with has a `provider` contract address de
 
 ### Registration
 There are two methods of registration:
-1. Auto detect - this will check the user provided NFT contract for a contract standard it supports. It first checks ERC-721, then ERC-1155, and then if any others are defines those (e.g. custom or future standards) **Note**:  the checking stops on the first successful standard found. This is the more expensive of the two methods, but the simplest.
+1. Auto detect - this will check the user provided NFT contract for a contract standard it supports. It first checks ERC-721, then ERC-1155, and then if any others are defined those (e.g. custom or future standards) **Note**:  the checking stops on the first successful standard found. This is the more expensive of the two methods, but the simplest.
 
 2. By index. If a user specifies the index of a querier index in the known collection, only that one will be checked. This method is cheaper, but requires knowing the querier index. To know which is which, the main contract exposes the provider address, which can be used to retrieve the queriers and then the name/description on each querier.
 
