@@ -80,7 +80,7 @@ Similar to future standards, additional queriers can be added for contracts that
 - I have a non-standard NFT, how do I get it supported.
 - - Open an issue on this repository, pointing to a verified contract supporting the `IQueryNFTs` interface.
 
-## Known error responses
+## Known error responses (this bit is a WIP)
 
 ## Registering
 - Contract address is wrong
