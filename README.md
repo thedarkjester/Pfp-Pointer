@@ -6,7 +6,7 @@ The aim of this project is to have an on-chain registry where any person can set
 
 Additionally, any dapp will be able to easily retrieve the metadata uri for the wallet connected to their dapp if it is registered. The dapp will then be able to personalise the user experience based on that metadata uri, by retrieving the metadata and NFT image.
 
-For now, interaction is on Etherscan under contracts, but a UI is being built as well as components for dApps to integrate with. See notes below on components (tl;dr - fork and submit PR)
+For now, interaction is on Etherscan under contracts, but a UI is being built as well as components for dapps to integrate with. See notes below on components (tl;dr - fork and submit PR)
 
 ## Deployed Addresses
 
