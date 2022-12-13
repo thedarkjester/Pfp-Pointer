@@ -100,6 +100,8 @@ Similar to future standards, additional queriers can be added for contracts that
 
 ## Deployed Addresses
 
+**Note:** The contracts have all been verified and source will be published here as well.
+
 All the addresses below are the same on:
 - Ethereum Mainnet
 - Sepolia Testnet
