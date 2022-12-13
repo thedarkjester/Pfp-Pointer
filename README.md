@@ -6,6 +6,35 @@ The aim of this project is to have an on-chain registry where any person can set
 
 Additionally, any dapp will be able to easily retrieve the metadata uri for the wallet connected to their dapp if it is registered. The dapp will then be able to personalise the user experience based on that metadata uri, by retrieving the metadata and NFT image.
 
+For now, interaction is on Etherscan under contracts, but a UI is being built as well as components for dApps to integrate with. See notes below on components (tl;dr - fork and submit PR)
+
+## Deployed Addresses
+
+**Note:** The contracts have all been verified and source will be published here as well.
+
+All the addresses below are the same on:
+- Ethereum Mainnet
+- Sepolia Testnet
+- Goerli Testnet
+- Polygon Mainnet
+- Mumbai Mainnet
+
+The Ethereum Mainnet address has ENS addresses associated to it:
+- pfp-pointer.eth
+- pfppointer.eth
+
+### PFP Pointer Address
+https://etherscan.io/address/0x5330abcd778d5ae2e242dfd088682640bac03506
+
+### Query Provider Address
+https://etherscan.io/address/0xa25da47cc55c072cee3804272725df0759e51779
+
+### ERC-721 Querier
+https://etherscan.io/address/0x12fdbbff654c4a3c39ad1ade8ad679ad0763cdb6
+
+### ERC-1155 Querier
+https://etherscan.io/address/0x5c01cebf16e69ed9ed10fee24713ca11c84a4ad1
+
 ## Technical details
 
 ### Queriers and their provider
@@ -97,30 +126,3 @@ Similar to future standards, additional queriers can be added for contracts that
 - Contract provided is not a contract
 - Contract provided is not valid
 - Contract provided is not supported
-
-## Deployed Addresses
-
-**Note:** The contracts have all been verified and source will be published here as well.
-
-All the addresses below are the same on:
-- Ethereum Mainnet
-- Sepolia Testnet
-- Goerli Testnet
-- Polygon Mainnet
-- Mumbai Mainnet
-
-The Ethereum Mainnet address has ENS addresses associated to it:
-- pfp-pointer.eth
-- pfppointer.eth
-
-### PFP Pointer Address
-https://etherscan.io/address/0x5330abcd778d5ae2e242dfd088682640bac03506
-
-### Query Provider Address
-https://etherscan.io/address/0xa25da47cc55c072cee3804272725df0759e51779
-
-### ERC-721 Querier
-https://etherscan.io/address/0x12fdbbff654c4a3c39ad1ade8ad679ad0763cdb6
-
-### ERC-1155 Querier
-https://etherscan.io/address/0x5c01cebf16e69ed9ed10fee24713ca11c84a4ad1
