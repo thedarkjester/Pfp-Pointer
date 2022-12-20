@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.0.15",
+    "eth-gas-reporter": "^0.2.0",
+    "mocha": "^10.1.0"
+  }
+}
